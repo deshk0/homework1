@@ -1,0 +1,19 @@
+.calendar{
+ width: 380px;
+ height: 500px;
+}
+.days{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin: 0px 0px;
+    font-size: 30px;
+    text-align: center
+}
+.daysofweeks{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin: 0px 0px;
+    font-size: 30px;
+}
