@@ -1,0 +1,40 @@
+.menu div{
+display: block;
+width: 200px;
+float: left;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    font: 25px bolder;
+    color: rgb(31, 99, 201);
+    padding: 10px 4px;
+    text-decoration: none;
+    background: #2b2828;
+}
+a:hover{
+    color: #ff9900;
+    background-color: #000000;
+}
+.menu2 a {
+    display: block;
+    text-align: center;
+    font: 25px bolder;
+    color: rgb(31, 99, 201);
+    padding: 10px 4px;
+    text-decoration: none;
+    background: #2b2828;
+}
+a:hover{
+    color: #ff9900;
+    background-color: #000000;}
+.leftmenu{
+    display: block;
+    width: 200px;
+    float: left;
+}
+.clear{
+
+    clear: both;
+}
