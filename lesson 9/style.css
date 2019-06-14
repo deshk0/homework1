@@ -1,0 +1,40 @@
+.table-box{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-width: 70%;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 1010px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 1000px
+}
+
+.table th{
+    font-weight: normal;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+}
+
+.table td{
+    word-break: break-all;
+    border: 1px solid #000;
+}
+
+.block1{
+    vertical-align: top;
+}
+
+.block2{
+    vertical-align: bottom;
+    width: 90px;
+}
+
+.block3{
+    vertical-align: top;
+    text-align: right;
+    padding-right: 10px;
+}
