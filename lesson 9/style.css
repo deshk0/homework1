@@ -1,40 +1,50 @@
-.table-box{
-    border: 1px solid #000;
-    border-collapse: collapse;
-    border-width: 70%;
-    margin-left: 10px;
-    margin-top: 15px;
-    padding: 5px;
-    width: 1010px;
+caption{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    width: 600px;
+    padding: 5px 10px 15px 10px;
+    text-align: center;
+    background-color: rgb(223, 235, 235); 
+    color: rgb(23, 23, 117)
 }
 
 .table{
+    border-color:  rgb(87, 14, 14);
     border-collapse: collapse;
-    width: 1000px
+    width: 600px;
+    height: 300px;
 }
 
-.table th{
+.th1{
     font-weight: normal;
-    padding-bottom: 10px;
-    border: 1px solid #000;
+    padding: 5px 0px 5px 0px;
+    border: 1px solid rgb(124, 122, 122);
+    background-color: rgba(177, 199, 199, 0.705);
+
 }
 
-.table td{
+.td1{
     word-break: break-all;
-    border: 1px solid #000;
+    border: 1px solid rgb(124, 122, 122);
+    padding: 0px 0px 0px 5px;
+    color: rgb(13, 13, 116);
+    text-align: left;
+    background-color: rgba(177, 199, 199, 0.705);
+   
 }
-
-.block1{
-    vertical-align: top;
-}
-
-.block2{
-    vertical-align: bottom;
-    width: 90px;
-}
-
-.block3{
-    vertical-align: top;
+.td2{
+    word-break: break-all;
+    border: 1px solid rgb(124, 122, 122);
     text-align: right;
-    padding-right: 10px;
+    vertical-align: bottom;
+    padding: 0px 5px 5px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.text1{
+    vertical-align: top;
+}
+.text2{
+    vertical-align: 50%
 }
