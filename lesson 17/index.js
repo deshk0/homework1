@@ -25,9 +25,9 @@ num *= 5;
 
 num /= 7;
 
-num += 1;
+num++ // +=1;
 
-num -= 1;
+num-- // -=1;
 
 alert(num);
 
