@@ -2,7 +2,7 @@
 "use strict";
 
 //1
-
+/*
 function fib(n) {
     if (n <= 1) {
         return n;
@@ -11,6 +11,23 @@ function fib(n) {
     }
 }
 console.log(fib(5));
+*/
+
+
+function fib2(n){
+    let a=1, b=1 ;
+
+    for(let i = 3; i <= n; i++){
+        let c = a + b;
+            a = b; 
+            b = c;
+
+    }
+    return b;
+}
+
+console.log(fib2(10));
+
 
 //2
 
