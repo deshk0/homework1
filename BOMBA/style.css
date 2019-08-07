@@ -52,8 +52,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     background-image: url(img/8.1.png);
-
-
 }
 .header-logo{
     padding-left: 50px;
@@ -144,13 +142,14 @@ body{
 
 }
 .main-intro{
-    padding-top: 208px;
-    padding-bottom:  200px; 
+    padding-top: 140px;
+    padding-bottom:  192px; 
     background: #050b5f;
     background-image: url(img/7.1.png);
 
 
 }
+
 .block-1{
     display: flex;
     justify-content: space-between;
@@ -178,6 +177,11 @@ body{
 } 
 .header-arrow2 a:hover{
     opacity: 0.5;
+}
+.main-intro-buttons{
+    flex: 4;
+    height: 100px;
+
 }
 
 
@@ -276,30 +280,11 @@ body{
     flex-direction: row;
 }
 
-.main-partner1{
+.main-partner{
 
     padding: 25px 15px
 }
-.main-partner2{
 
-    padding: 25px 15px
-}
-.main-partner3{
-  
-    padding: 25px 15px
-}
-.main-partner4{
-    
-    padding: 25px 15px
-}
-.main-partner5{
-    
-    padding: 25px 15px
-}
-.main-partner6{
- 
-    padding: 25px 15px
-}
 
 .main-about{
     background: #ffffff;
@@ -314,10 +299,7 @@ body{
     background-color: white;
     align-items: center;
 }
-.wrapper2{
-    width: 1400px;
-    margin: 0 auto;
-}
+
 .main-about-photos{
     flex: 0;
 
@@ -495,7 +477,9 @@ body{
   
 }
 .main-work-block1{
-    flex: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     background-image: url(img/overlay.png);
     background-repeat: no-repeat;
 }
@@ -504,15 +488,20 @@ body{
     color: white;
     font-size: 48px;
     font-weight: 600;
-    padding-top: 430px;
     padding-left: 50px;
+    margin-top: auto;
+
 }
 .main-work-desc{
     font-style: italic;
     padding-left: 50px;
+    padding-bottom: 50px;
+
 }
 .main-work-block2{
     flex: 1;
+    display: flex;
+    flex-direction: column;
     width: 370px;
     height: 550px;
     background-image: url(img/6.1.png);
@@ -520,17 +509,17 @@ body{
    
 }
 .main-work-title3{
-    color: white;
     font-size: 48px;
     font-weight: 600;
-    padding-top: 350px;
     padding-left: 30px;
     line-height: 0.8;
+    margin-top: auto;
 }
 .main-work-desc2{
     font-weight: 600;
     padding-left: 30px;
     padding-top: 20px;
+    padding-bottom: 50px;
     text-transform: uppercase;
 }
 
@@ -558,6 +547,8 @@ body{
 
 .how-we-work-intro{
     flex: 1;
+    display: flex;
+    flex-direction: column;
     width: 370px;
     height: 700px;
     background-color: white;
@@ -859,4 +850,703 @@ body{
         flex-direction: row;
     }
 
+    .wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+
+    .main-title{
+        color: #181b31;
+        font-size: 52px;
+        font-weight: 600; 
+        
+    }
+    .main-title2{
+        color: black;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+        margin: 10px 0px
+    }
+    .main-description{
+        color: #808291;
+        line-height: 30px;
+        padding-bottom: 60px;
+    }
+    
+    .main-button{
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+        background-color: #2ed47c;
+        border-radius: 25px;
+        padding: 15px 41px;
+        letter-spacing: 2px;
+    
+    }
+    
+    .main-button:hover{
+        animation: shadow2 2s infinite ease-in-out;
+        animation-name: shadow2;
+        animation-iteration-count: 10;
+        animation-direction: normal;
+    }
+
+    .main-about-photos img{
+        flex: 1;
+        width: 400px;
+        height: 400px;
+    }
+    .block-3-intro{
+        flex: 1;
+        align-self: flex-start;
+        width: 370px;
+        height: 700px;
+        background-color: white;
+        align-items: center;
+    }
+    .header-title1{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    .main-about{
+        background: #ffffff;
+        margin: 0px;
+        
+    }
+
+    .main-whatwedo-column-number{
+        font-size: 8px;
+        font-weight: 600;
+        color: #2ed47c;
+        letter-spacing: 2px;
+    }    
+    
+    .main-whatwedo-column-title{
+        font-size: 30px;
+        font-weight: 600;
+        color: #181b31;
+        letter-spacing: 2px;
+    }
+    .main-whatwedo-column-description{
+        font-size: 12px;
+        font-weight: 300;
+        color: #808291;
+        letter-spacing: 1px;
+        line-height: 24px;
+        padding-bottom: 51px;
+    }
+    
+    .main-whatwedo-column-menu a{
+        font-size: 10px;
+        font-weight: bold;
+        color: #181b31;
+        letter-spacing: 1px;
+        line-height: 30px;
+        padding-bottom: 51px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .main-work-title{
+        flex: 1;
+        font-size: 48px;
+        color: #181b31;
+        font-weight: 600;
+        align-self: flex-start;
+    
+    }
+    .main-work{
+        padding-bottom: 80px; 
+    }
+
+    .main-work-menu{
+        padding-top: 0px;
+    }
+    .how-we-work-intro{
+        flex: 1;
+        width: 370px;
+        height: 700px;
+        background-color: white;
+    }
+    
+    .how-we-work-title{
+        color: #181b31;
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 0;
+        padding-top: 200px;
+        padding-left: 65px;
+    }
+    
+    .how-we-work-desc{
+        color: #181b31;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        font-style: italic;
+        padding-top: 60px;
+        padding-left: 65px;
+    }
+      
+    
+    .how-we-work-button {
+        padding-top: 60px;
+        padding-left: 65px;
+        text-decoration: none;
+        text-transform: uppercase;
+    
+    }
+
+    .how-we-work-button a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #181b31;
+        font-weight: 600;
+        background-image: url(img/arow.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position-y: center;
+        padding-left: 50px;
+    }
+
+    .main-blog-block1 img{
+        width: 250px;
+        height: 280px;
+
+    }
+    .main-blog-block2 img{
+        width: 250px;
+        height: 280px;  
+
+    }
+    .main-blog-block3 img{
+        width: 250px;
+        height: 280px;
+
+    }
+
+    .header-menu a{
+        font-size: 12px;
+    }
 }
+
+@media(max-width: 756px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-image: url(img/8.1.png);
+    }
+    .header-logo{
+        padding-left: 20px;
+        flex: 0;
+        align-self: center;
+    }
+
+    .header-menu {
+        flex: 1;
+        text-align: center;
+        align-self: center;
+        margin: 0 15px;
+    }
+    .header-menu a{
+        padding-right: 2px ;
+        text-align: center;
+        letter-spacing: 0px;
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+   
+        font-family: 'glacial_indifferencebold';
+        line-height: 0px;
+        text-transform: uppercase;
+    }
+    .header-consult{
+        flex: 0;
+        align-self: center;
+        width: 0px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .header-consult-button{
+        line-height: 55px;
+        font-weight: 300;
+        border: 0px solid #2ed47c;
+        text-align: center;
+        border-radius: 0;
+        text-decoration: none;
+        box-sizing: border-box;   
+        text-decoration: none;
+        color: white;
+        padding: 0; 
+        font-size: 0px;
+        font-family: 'glacial_indifferencebold';
+        align-self: center;
+        text-transform: uppercase;   
+    }   
+    .header-consult-number{
+        font-size: 0px;
+    }
+    .header-consult-number b{
+        font-size: 0px;
+    }
+    .header-title1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .header-title{
+        font-size: 10px;
+    }
+    .header-title2{
+        font-size: 14px;
+        margin-bottom: 65px;
+    }
+    .main-intro {
+        padding-top: 100px;
+        padding-bottom: 200px;
+        background: #050b5f;
+        background-image: url(img/7.1.png);
+    }
+    .header-intro-button1 {
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color: #fd7350;
+        border-radius: 35px;
+        box-sizing: border-box;
+        padding: 14px 18px;
+        margin-right: 0px;
+    }
+    .header-intro-button2 {
+        text-decoration: none;
+        color: #2ed47c;
+        font-size: 8px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 1px solid #2ed47c;
+        padding: 14px 18px 14px 35px;
+        border-radius: 35px;
+        margin-left: 0px;
+        background-image: url(img/play-btn.png);
+        background-size: 15%;
+        background-repeat: no-repeat;
+        background-position-x: 10px;
+        background-position-y: 8px;
+    }
+
+    .header-intro a{
+        width: 250px;
+        height: 60px;
+        margin-top: 10px;
+ 
+
+    }
+    .block-1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .wrapper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .header-arrow1 img{
+        width: 0;
+        height: 0;
+    }
+    .header-arrow2 img{
+        width: 0;
+        height: 0;
+    }
+    .main-partner img {
+        width: 100px;
+        height: 30px;
+    }
+    .main-about-photos img {
+        flex: 1;
+        width: 100px;
+        height: 100px;
+    }
+    .main-title {
+        color: #181b31;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .main-title2 {
+        color: black;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: 300;
+        margin: 10px 0px;
+    }
+    .main-description {
+        color: #808291;
+        font-size: 8px;
+        line-height: 10px;
+        padding-bottom: 20px;
+    }
+    .block-3-intro {
+        flex: 1;
+        align-self: flex-start;
+        width: 370px;
+        height: 250px;
+        background-color: white;
+        align-items: center;
+    }
+    .block-3-intro img{
+        width: 40px;
+        height: 15px;
+    }
+    .main-button {
+        font-size: 6px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+        background-color: #2ed47c;
+        border-radius: 25px;
+        padding: 8px 20px;
+        letter-spacing: 2px;
+    }
+    .main-whatwedo-column-menu a {
+        font-size: 6px;
+        font-weight: bold;
+        color: #181b31;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .main-whatwedo-column-number {
+        font-size: 4px;
+        font-weight: 600;
+        color: #2ed47c;
+        letter-spacing: 2px;
+    }
+    .main-whatwedo-column-title {
+        font-size: 10px;
+        font-weight: 600;
+        color: #181b31;
+        letter-spacing: 2px;
+    }
+    .main-whatwedo-column-description {
+        font-size: 6px;
+        font-weight: 300;
+        color: #808291;
+        letter-spacing: 1px;
+        line-height: 14px;
+        padding-bottom: 30px;
+    }
+    .main-work-title {
+        flex: 1;
+        font-size: 18px;
+        color: #181b31;
+        font-weight: 600;
+        align-self: center;
+    }
+    .main-work-menu a {
+        font-size: 6px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-right: 2px;
+        color: #181b31;
+    }
+    .main-work-block1 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/overlay.png);
+        background-repeat: no-repeat;
+        background-size: 166%;
+        width: 150px;
+        height: 180px;
+    }
+    .main-work-block2 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 180px;
+        background-image: url(img/6.1.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+    .main-work {
+        padding-bottom: 40px;
+    }
+    .main-work-title3 {
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 15px;
+        line-height: 0.8;
+        margin-top: auto;
+    }
+    .main-work-desc2 {
+        font-size: 6px;
+        font-weight: 600;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .main-work-title2 {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 15px;
+        margin-top: auto;
+    }
+    .main-work-desc {
+        font-size: 6px;
+        font-style: italic;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .how-we-work-title {
+        color: #181b31;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .how-we-work-img {
+        flex: 2;
+        background-image: url(img/9.1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .how-we-work-desc {
+        color: #181b31;
+        font-size: 6px;
+        font-weight: 300;
+        line-height: 10px;
+        font-style: italic;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .how-we-work-button a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #181b31;
+        font-weight: 600;
+        background-image: url(img/arow.png);
+        background-repeat: no-repeat;
+        background-size: 10px;
+        background-position-y: center;
+        padding-left: 15px;
+        font-size: 6px;
+    }
+    .how-we-work-button {
+        padding-top: 0px;
+        padding-left: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .how-we-work-intro {
+        flex: 1;
+        width: 370px;
+        height: 90px;
+        background-color: white;
+    }
+    .main-work2 {
+        padding-bottom: 90px;
+    }
+    .how-we-work {
+        margin-bottom: 60px;
+    }
+    .main-review-name b {
+        color: #fd7350;
+        font-size: 6px;
+        line-height: 0px;
+    }
+    .main-review-name {
+        font-size: 10px;
+        font-weight: 600;
+        color: #181b31;
+        background-image: url(img/shrek.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: left;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 10px;
+    }
+    .main-review-name2 {
+        font-size: 10px;
+        font-weight: 600;
+        color: #181b31;
+        background-image: url(img/patrick.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: left;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 10px;
+    }
+    .main-review-name2 b {
+        color: #fd7350;
+        font-size: 6px;
+        line-height: 0px;
+    }
+    .main-review-descr {
+        font-size: 8px;
+        color: #808291;
+        line-height: 10px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    .main-review-date {
+        font-size: 6px;
+        color: #808291;
+        line-height: 10px;
+        padding-left: 25px;
+        padding-top: 5px;
+        text-transform: uppercase;
+    }
+    .main-blog {
+        margin-top: 50px;
+    }
+    .main-blog-title1 {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #181b31;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .main-blog-title {
+        font-size: 8px;
+        font-weight: 600;
+        text-align: center;
+        color: #2ed47c;
+    }
+    .main-blog-block1 img {
+        width: 100px;
+        height: 110px;
+    }
+    .main-blog-block2 img {
+        width: 100px;
+        height: 110px;
+    }
+    .main-blog-block3 img {
+        width: 100px;
+        height: 110px;
+    }
+    .main-blog-block1-date {
+        font-size: 5px;
+        color: #808291;
+        padding-top: 2px;
+        font-style: italic;
+    }
+    .main-blog-block1-title {
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #181b31;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+    .main-blog-block1-news {
+        font-size: 6px;
+        font-weight: 600;
+        color: #fd7350;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+    .main-cta {
+        margin-top: 50px;
+        height: 200px;
+        background-image: url(img/duo-tones.png);
+        margin-bottom: 50px;
+    }
+    .main-cta-descr {
+        font-size: 12px;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 10px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-cta-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .main-cta-button a {
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: #fd7350;
+        background-size: 250px;
+        border-radius: 35px;
+        box-sizing: border-box;
+        padding: 12px 16px;
+        text-align: center;
+    }
+    .footer-title {
+        font-size: 8px;
+        font-weight: 600px;
+        color: #181b31;
+        padding-bottom: 15px;
+    }
+    .footer-navigation li {
+        font-size: 5px;
+        font-weight: 300px;
+        padding-bottom: 5px;
+    }
+    .main-nav {
+        margin-bottom: 60px;
+    }
+    .footer-logo img{
+        width: 20px;
+        height: 10px;
+    }
+    .footer-copyright b {
+        font-size: 5px;
+        color: #2ed47c;
+        align-self: center;
+    }
+    .footer-copyright {
+        font-size: 5px;
+        align-self: center;
+    }
+    .footer-socialmedia {
+        padding-right: 10px;
+        width: 9px;
+        height: 8px;
+    }
+    .main-intro {
+        padding-top: 100px;
+        padding-bottom: 90px;
+        background: #050b5f;
+        background-image: url(img/7.1.png);
+    }
+    .main-partners {
+        background: #f4f5f8;
+        margin-bottom: 90px;
+    }
+
+
+
+}
+
+
