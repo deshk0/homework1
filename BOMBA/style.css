@@ -1027,6 +1027,14 @@ body{
         height: 280px;
 
     }
+    .main-blog-block1-title {
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #181b31;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
 
     .header-menu a{
         font-size: 12px;
@@ -1452,7 +1460,7 @@ body{
         font-style: italic;
     }
     .main-blog-block1-title {
-        font-size: 10px;
+        font-size: 12px;
         letter-spacing: 1px;
         font-weight: 600;
         color: #181b31;
